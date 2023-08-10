@@ -12,7 +12,6 @@ public:
 		of occurrences of x, otherwise returns 0. */
 	int count(int arr[], int n, int x) {
 	    // code here
-	    
 	    int i=0, j=n-1, first = -1, last = -1;
 	    while(i<=j){
 	        int mid = (i+j)/2;
